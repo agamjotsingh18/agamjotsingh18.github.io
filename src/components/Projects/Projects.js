@@ -6,8 +6,13 @@ import rentaproperty from "../../Assets/Projects/rent-a-property.png";
 import hostel from "../../Assets/Projects/hostel.jpeg";
 import imagerecognitionapi from "../../Assets/Projects/image-recognition-api.png";
 import pollitup from "../../Assets/Projects/pollitup.png";
+import trendhora from "../../Assets/Projects/TrendHora.png";
 import memeGenerator from "../../Assets/Projects/memeGenerator.png";
 import CodeSetGo from "../../Assets/Projects/CodeSetGo.png";
+import printogether from "../../Assets/Projects/Printogether.png";
+import harmaigJeweller from "../../Assets/Projects/Harmaig Jeweller.png"
+import blogWithMe from "../../Assets/Projects/blog-with-me.png";
+
 
 function Projects() {
   return (
@@ -21,6 +26,37 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={trendhora}
+              isBlog={false}
+              title="TrendHora"
+              description="Trendhora combines a polished front-end experience with a robust Node/Mongo back end to help small teams ship a production-ready marketplace quickly."
+              ghLink="https://github.com/agamjotsingh18/trendhora"
+              demoLink="https://trendhora.vercel.app/"
+            />
+          </Col>
+           <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={printogether}
+              isBlog={false}
+              title="Printogether"
+              description="Printogether is a web application that allows users to print their designs and get them delivered to their doorstep."
+              ghLink="https://github.com/agamjotsingh18/printogether"
+              demoLink="https://printogether.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={harmaigJeweller}
+              isBlog={false}
+              title="Harmaig Jeweller"
+              description="Harmaig Jewller are a direct-to-consumer (D2C) jewelry brand, backed by a rich family heritage in the jewelry business since 1992. Now, we're embarking on an online venture led by IIT Bombay students."
+              ghLink="https://github.com/agamjotsingh18/harmaig-jeweller"
+              demoLink="https://harmaig-jeweller.vercel.app/"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={pollitup}
@@ -62,6 +98,17 @@ function Projects() {
               description="Rent a Property is a web application that allows users to search and rent properties. It provides a user-friendly interface for property owners to list their properties and for users to search and rent properties based on their requirements."
               ghLink="https://github.com/agamjotsingh18/rent-a-property"
               demoLink="https://rent-a-property-webapp.vercel.app/"
+            />
+          </Col>
+
+           <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={blogWithMe}
+              isBlog={false}
+              title="Blog With Me"
+              description="Blog With Me, a full-featured blogging platform where users can create, edit, and view blog posts. This application is built using the MERN (MongoDB, Express, React, Node.js) stack."
+              ghLink="https://github.com/agamjotsingh18/blog-with-me"
+              demoLink="https://blog-with-me.vercel.app/"
             />
           </Col>
 

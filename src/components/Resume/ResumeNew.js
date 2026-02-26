@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "../../Assets/../Assets/Resume_Agamjot_Singh.pdf";
+import pdf from "../../Assets/../Assets/Resume___Agamjot-Singh.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
@@ -10,10 +10,15 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
+  const [numPages, setNumPages] = useState(null);
 
   useEffect(() => {
     setWidth(window.innerWidth);
   }, []);
+
+  function onDocumentLoadSuccess({ numPages }) {
+    setNumPages(numPages);
+  }
 
   return (
     <div>
@@ -32,8 +37,20 @@ function ResumeNew() {
         </Row>
 
         <Row className="resume">
-          <Document file={pdf} className="d-flex justify-content-center">
-            <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
+          <Document 
+            file={pdf} 
+            onLoadSuccess={onDocumentLoadSuccess}
+            className="d-flex flex-column align-items-center"
+          >
+            {/* Map through the number of pages to render all of them */}
+            {Array.from(new Array(numPages), (el, index) => (
+              <Page 
+                key={`page_${index + 1}`} 
+                pageNumber={index + 1} 
+                scale={width > 786 ? 1.7 : 0.6} 
+                className="mb-4" // Adds spacing between the two pages
+              />
+            ))}
           </Document>
         </Row>
 
