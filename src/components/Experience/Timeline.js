@@ -5,7 +5,7 @@ const timelineElements = [
     title: "Full Stack Developer",
     location: "Wealthcraft Innovation",
     description:
-      "Leading the development of complex financial infrastructure and high-performance data visualization systems. Architecting scalable solutions and advanced charting components[cite: 11, 15].",
+      "Leading the development of complex financial infrastructure and high-performance data visualization systems. Architecting scalable solutions and advanced charting components.",
     buttonText: "Company Website",
     date: "December 2025 - Present",
     icon: "work",
@@ -15,7 +15,7 @@ const timelineElements = [
     title: "Full Stack Developer",
     location: "Printogether",
     description:
-      "Developed a full-stack 3D printing marketplace using Next.js 14, TypeScript, and Tailwind CSS[cite: 12]. Optimized performance by reducing bundle size by 30% and managed 100+ product listings[cite: 12, 13].",
+      "Developed a full-stack 3D printing marketplace using Next.js 14, TypeScript, and Tailwind CSS. Optimized performance by reducing bundle size by 30% and managed 100+ product listings.",
     buttonText: "View Project",
     date: "January 2025 - April 2025",
     icon: "work",
@@ -25,7 +25,7 @@ const timelineElements = [
     title: "Full Stack Developer",
     location: "Harmaig Jeweller",
     description:
-      "Built and deployed a high-traffic WebApp featuring 100+ product listings[cite: 16]. Focused on codebase optimization, performance tuning, and resolving critical bugs[cite: 16].",
+      "Built and deployed a high-traffic WebApp featuring 100+ product listings. Focused on codebase optimization, performance tuning, and resolving critical bugs.",
     buttonText: "View Project",
     date: "June 2024 - November 2024",
     icon: "work",
@@ -35,7 +35,7 @@ const timelineElements = [
     title: "Full Stack Developer",
     location: "Mojo Web Technologies",
     description:
-      "Developed an Image Caption Generator utilizing ClarifAI, processing 500+ images weekly[cite: 21]. Built and maintained data pipelines, improving processing efficiency by 20%[cite: 23].",
+      "Developed an Image Caption Generator utilizing ClarifAI, processing 500+ images weekly. Built and maintained data pipelines, improving processing efficiency by 20%.",
     buttonText: "View Project",
     date: "July 2023 - April 2024",
     icon: "work",
@@ -45,7 +45,7 @@ const timelineElements = [
     title: "Tech Intern",
     location: "Newton School",
     description:
-      "Acting as the bridge between students and faculty while managing a large student community[cite: 31, 33]. Responsible for 100+ daily resume evaluations and mock interview scheduling[cite: 34].",
+      "Acting as the bridge between students and faculty while managing a large student community. Responsible for 100+ daily resume evaluations and mock interview scheduling.",
     buttonText: "View Frontend Projects",
     date: "August 2022 - May 2023",
     icon: "work",
@@ -55,7 +55,7 @@ const timelineElements = [
     title: "DevRel",
     location: "Keploy",
     description:
-      "Bridged the gap between developers and the Keploy ecosystem[cite: 63]. Created server-side logic and outward-facing web elements to enhance the developer experience[cite: 63].",
+      "Bridged the gap between developers and the Keploy ecosystem. Created server-side logic and outward-facing web elements to enhance the developer experience.",
     buttonText: "View Backend Projects",
     date: "July 2022 - October 2022",
     icon: "work",
@@ -65,7 +65,7 @@ const timelineElements = [
     title: "Future Ready Talent Intern",
     location: "Microsoft",
     description:
-      "Learned in-demand Azure cloud and security skills aligned to industry needs. Prepared to solve business challenges and create innovative solutions using Microsoft Azure and GitHub tools[cite: 62].",
+      "Learned in-demand Azure cloud and security skills aligned to industry needs. Prepared to solve business challenges and create innovative solutions using Microsoft Azure and GitHub tools.",
     buttonText: "Company Website",
     date: "October 2021 - October 2022",
     icon: "work",
@@ -77,7 +77,7 @@ const timelineElements = [
     title: "Open Source Mentor & Project Admin",
     location: "GirlScript Summer Of Code",
     description:
-      "Mentored 500+ students across multiple open-source programs including GSSoC 22/23[cite: 41, 64]. Managed projects like PollItUp and CodeSetGo, handling 100+ pull requests[cite: 42, 57].",
+      "Mentored 500+ students across multiple open-source programs including GSSoC 22/23. Managed projects like PollItUp and CodeSetGo, handling 100+ pull requests.",
     buttonText: "Project Details",
     date: "March 2022 - July 2022",
     icon: "work",
@@ -87,7 +87,7 @@ const timelineElements = [
     title: "React Developer Intern",
     location: "Mitambi Solutions",
     description:
-      "Developed Login/SignUp pages with Firebase Authentication, a Social Media Web App, and a comprehensive Hostel Management Dashboard for all cities in India[cite: 26, 28].",
+      "Developed Login/SignUp pages with Firebase Authentication, a Social Media Web App, and a comprehensive Hostel Management Dashboard for all cities in India.",
     buttonText: "Company Website",
     date: "July 2021 - October 2021",
     icon: "work",
@@ -107,7 +107,7 @@ const timelineElements = [
     title: "Cyber Security Intern",
     location: "Gurugram Police",
     description:
-      "Successfully completed the Cyber Security Summer Internship, gaining insights into cybercrime methods, prevention measures, and Indian cyber legislation[cite: 66].",
+      "Successfully completed the Cyber Security Summer Internship, gaining insights into cybercrime methods, prevention measures, and Indian cyber legislation.",
     buttonText: "Program Details",
     date: "June 2021 - July 2021",
     icon: "work",
@@ -127,7 +127,7 @@ const timelineElements = [
     title: "Community BUIDLer",
     location: "Binance",
     description:
-      "Established a vibrant ecosystem for crypto-literate students to push blockchain boundaries and provided growth opportunities through latest event information[cite: 61].",
+      "Established a vibrant ecosystem for crypto-literate students to push blockchain boundaries and provided growth opportunities through latest event information.",
     buttonText: "College Projects",
     date: "January 2022 - January 2023",
     icon: "work",
@@ -137,7 +137,7 @@ const timelineElements = [
     title: "Community Builder",
     location: "Apli.ai",
     description:
-      "Collaborated with placement officers and the core team to increase placement opportunities and career growth for college students[cite: 16, 61].",
+      "Collaborated with placement officers and the core team to increase placement opportunities and career growth for college students.",
     date: "December 2021 - January 2022",
     icon: "work",
   },
@@ -146,7 +146,7 @@ const timelineElements = [
     title: "Community Builder",
     location: "Scaler",
     description:
-      "Selected as one of the Scaler Elites to drive engagement for a community of 100k+ members[cite: 61]. Conducted technical doubt-clearing sessions and resume reviews.",
+      "Selected as one of the Scaler Elites to drive engagement for a community of 100k+ members. Conducted technical doubt-clearing sessions and resume reviews.",
     date: "December 2021 - January 2022",
     icon: "work",
   }
